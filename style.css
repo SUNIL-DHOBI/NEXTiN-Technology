@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk, sans-serif;
+    text-decoration: none !important;
+    
+}
+:root{
+    --colors-text: #1e1c1c;
+    --colors-background: #e3234f;
+    --colors-hover: #b4173b;
+    --colors-heading: #1e1c1c;
+}
+.header-top{
+    height: 50px;
+    background-color: var(--colors-background);
+    cursor: pointer;
+}
+.header-nav{
+    position: sticky;
+    top: 0;
+}
+.header-nav-menu a{
+    color: #1e1c1c;
+    transition: color 0.3s;
+}
+
+.header-nav-menu a:hover{
+    color: #e3234f;
+}
+.header-nav-buttons button{
+    background-color: #e3234f;
+    transition: all 0.3s;
+    height: 45px;
+    width: 115px;
+}
+.header-nav-buttons button:hover{
+    background-color: #b4173b;
+    box-shadow: 0 0 5px grey;
+}
+
+.choose-us-section{
+    background-color: rgba(230, 225, 225, 0.39);
+}
+.choose-us-card1{
+    transition: all 0.3s ease-in;
+    background-color: #e3234f;
+    color: white;
+}
+.choose-us-card1:hover{
+    background-color: white;
+    color: #b4173b;
+    transform: scale(1.04);
+    /* box-shadow: 0 0 5px #b4173b; */
+}
+/* Main Section */
+.main-card1{
+    transition: all 0.3s ease-in;
+}
+.main-card1:hover{
+    background-color: #e3234f;
+    color: white;
+}
+.main-right-project-btn{
+    transition: all 0.2s ease-in;
+
+}
+.main-right-project-btn:hover{
+   transform: scale(1.1);
+   box-shadow: 0 0 5px gray;
+}
+
+
+/* About CSS Start */
+.about-section-hero-page{
+    background-color: #b4173b;
+    background-image: url('https://media.istockphoto.com/id/1218449071/vector/programming-and-software-development-web-page-banner-program-code-on-screen-device-software.jpg?s=612x612&w=0&k=20&c=5kdc_XJlzXGhHDrZKWGhHg_CC16vyAHVWkGqTjkacv4=');
+    background-blend-mode: multiply;
+    
+    
+}
+
+.our-journy-icon>div{
+    height: 35px;
+    width: 5px;
+    background-color: black;
+}
+.our-journy-icon>i{
+    transition: all 0.3s ease-in;
+}
+.our-journy-icon>i:hover{
+    background-color: white !important;
+    color: #b4173b !important;
+    cursor: pointer;
+    border: 1px solid #b4173b;
+    box-shadow: 0 0 5px #b4173b;
+}
+
+/* About CSS End */
+
+/* Career page start */
+
+.career-section-hero-page{
+    background-color: #b4173b;
+    background-image: url('https://media.istockphoto.com/id/1218449071/vector/programming-and-software-development-web-page-banner-program-code-on-screen-device-software.jpg?s=612x612&w=0&k=20&c=5kdc_XJlzXGhHDrZKWGhHg_CC16vyAHVWkGqTjkacv4=');
+    background-blend-mode: multiply;
+    
+    
+}
+
+/* Career page end */
+
+
+/* Footer Page */
+.footer-links-menu a{
+    font-size: 14px;
+    color: grey;
+    transition: all 0.3s ease;
+}
+.footer-middle-details>span{
+    font-size: 13px;
+    cursor: pointer;
+    color: grey;
+    transition: all 0.3s ease;
+}
+.footer-middle-details>span:hover, .footer-links-menu a:hover{
+    color: var(--colors-background);
+    
+}
+.footer-icon{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-icon:hover{
+    transform: scale(1.3);
+    color: var(--colors-background);
+    box-sizing: 0 0 5px rgb(255, 255, 255);
+    
+}
+
+/* Courses section */
+.course-card-img{
+    overflow: hidden;
+    background-size: cover;
+    transition: all 0.2s ease-in;
+
+}
+
+.course-section-card{
+    overflow: hidden;
+    transition: all 0.05s ease-in;
+}
+.course-section-card:hover .course-card-img{
+    transform: scale(1.06);
+  
+
+}
+
+/* our value section */
+.our-value-section{
+    background-color: #f8f9fa;
+}
+
+.our-value-card-icon{
+    height: 53px;
+    width: 53px;
+    background-color: #e3234f;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.our-value-card1:hover .our-value-card-icon{
+    background-color: white;
+    color: #b4173b;
+    transform: scale(1.05);
+    border: 1px solid #b4173b;
+    box-shadow: 0 0 5px #e3234f;
+
+}
+
+/* current oppening */
+.current-opening-cards{
+    background-color: #b4173b;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.current-opening-cards:hover{
+    background-color: rgba(228, 227, 227, 0);
+    color: #b4173b;
+    transform: scale(1.02);
+}
+
+
+/* all cources section */
+
+.flexible-plan-card1{
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+}
+
+.flexible-plan-card1:hover{
+    border: 2px solid #dc3545;
+}
