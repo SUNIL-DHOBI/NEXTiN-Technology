@@ -29,13 +29,25 @@
 .header-nav-menu a:hover{
     color: #e3234f;
 }
-.header-nav-buttons button{
+.header-nav-buttons .btn-login{
     background-color: #e3234f;
     transition: all 0.3s;
     height: 45px;
     width: 115px;
 }
-.header-nav-buttons button:hover{
+.btn-enrool-now{
+    border: 2px solid #e3234f;
+    transition: all 0.3s;
+    height: 45px;
+    width: 115px;
+    background: transparent;
+
+}
+.btn-enrool-now:hover{
+    background-color: #e3234f;
+    color: white;
+}
+.header-nav-buttons .btn-login:hover{
     background-color: #b4173b;
     box-shadow: 0 0 5px grey;
 }
@@ -43,17 +55,19 @@
 .choose-us-section{
     background-color: rgba(230, 225, 225, 0.39);
 }
-.choose-us-card1{
+.choose-us-section .card{
     transition: all 0.3s ease-in;
     background-color: #e3234f;
     color: white;
+    cursor: pointer;
 }
-.choose-us-card1:hover{
+.choose-us-section .card:hover{
     background-color: white;
     color: #b4173b;
     transform: scale(1.04);
-    /* box-shadow: 0 0 5px #b4173b; */
+   
 }
+
 /* Main Section */
 .main-card1{
     transition: all 0.3s ease-in;

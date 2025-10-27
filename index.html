@@ -15,11 +15,10 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body >
-<div class="main-holder">
+<body class="overflow-x-hidden">
+
     <!-- Header Section -->
-        
-            <header>
+    <header>
                 <div class="header-top text-light fw-bold d-flex justify-content-center align-items-center">
                     <span>Start the course now with a limited time up to 60% Discount !</span>
                 </div>
@@ -37,17 +36,15 @@
                         </ul>
                     </div>
                     <div class="align-items-center header-nav-buttons d-flex gap-3">
-                        <button class="border-0 text-light fw-bold rounded-3">Enroll Now</button>
-                        <button class="border-0 text-light fw-bold rounded-3"><span class="bi bi-person"></span>  Login</button>
+                        <button class="btn-enrool-now fw-bold rounded-3">Enroll Now</button>
+                        <button class="btn-login border-0 text-light fw-bold rounded-3"><span class="bi bi-person"></span>  Login</button>
                     </div>
 
                 </div>
-            </header>
-
-            
+    </header>
 
     <!-- Home-Hero Section -->
-        <main class="container py-5 ">
+    <main class="container py-4">
             <div class="row align-items-center">
 
                         <div class="main-left col-12 col-lg-6">
@@ -67,7 +64,7 @@
                             </div>
 
 
-                            <div class="mt-4">
+                            <div class="mt-2">
                                 <h2 class="fs-3 fw-bold mb-3">Our Services</h2>
                                 
                                 <div class="row g-3">
@@ -125,73 +122,84 @@
                                 <span>Projects</span>
                             </div>
                         </button> -->
-                        <img class="img-fluid" src="src/landing_page_img.webp" alt="">
+                        <img class="img-fluid" src="src/landing_page_img.jpg" alt="">
                         </div>
             </div>
-        </main>
-
+    </main>
 
     <!-- Why Choose Us Section -->
-    <div class="choose-us-section d-flex flex-column row-gap-4 align-items-center py-5">
-        <div class="row">
-            <div class="py-2">
-                <div class="d-flex flex-column align-items-center">
-                    <h2 class="fw-bold">Why Choose Us ? </h2>
-                    <span class="w-50 text-center">Learn From the best and build your future in tech. Our courses are designed to give you the skills and confidence you need to succeed in the tech industry.</span>
-                </div>
+    <div class="choose-us-section">
+        <div class="container py-5 text-center">
+        
+            <div class="mb-4">
+                <h2 class="fw-bold">Why Choose Us ? </h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">
+                    Learn From the best and build your future in tech. Our courses are designed to give you the skills and confidence you need to succeed in the tech industry.
+                </p>
             </div>
 
-            <div class="choose-us-cards container-fluid justify-content-center d-flex flex-wrap gap-3">
-                    
-                <div class="choose-us-card1 card text-center p-2" role="button" style="width: 270px;">
-                    <span class="bi bi-mortarboard card-img-top fs-2 pt-2"></span>
-                    <div class="card-body p-3">
-                        <h3 class="card-title fs-5 fw-bold text-center">Expert Instructors</h3>
-                        <p class="card-text">Our instructors are industry experts with years of experience.</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">    
+                    <div class="card p-3 h-100 border-0 shadow-sm">
+                        <span class="bi bi-mortarboard card-img-top fs-2"></span>
+                        <div class="card-body">
+                            <h5 class="fw-bold">Expert Instructors</h5>
+                            <p class="mb-0">Our instructors are industry experts with years of experience.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="choose-us-card1 card text-center p-1" role="button" style="width: 270px;">
-                    <span class="bi bi-code-slash card-img-top fs-2 pt-2"></span>
-                    <div class="card-body p-3">
-                        <h3 class="card-title fs-5 fw-bold text-center">Project-Based Learning</h3>
-                        <p class="card-text">Gain hands on experience by building real world applications.</p>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card p-3 h-100 border-0 shadow-sm">
+                        <span class="bi bi-code-slash card-img-top fs-2"></span>
+                        <div class="card-body">
+                            <h5 class="fw-bold">Project based Learning</h5>
+                            <p class="mb-0">Gain hands on experience by building real world applications.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="choose-us-card1 card text-center p-1" role="button" style="width: 270px;">
-                    <span class="bi bi-briefcase card-img-top fs-2 pt-2"></span>
-                    <div class="card-body p-2">
-                        <h3 class="card-title fs-5 fw-bold text-center">Career Support</h3>
-                        <p class="card-text">We provide career guidance to help you land your dream job.</p>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="card p-3 h-100 border-0 shadow-sm">
+                        <span class="bi bi-briefcase card-img-top fs-2"></span>
+                        <div class="card-body">
+                            <h5 class="fw-bold">Career Support</h5>
+                            <p class="mb-0">We provide career guidance to help you land your dream job.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="choose-us-card1 card text-center p-1" role="button" style="width: 270px;">
-                    <span class="bi bi-clock card-img-top fs-2 pt-2"></span>
-                    <div class="card-body p-3">
-                        <h3 class="card-title fs-5 fw-bold text-center">Flexible Learning</h3>
-                        <p class="card-text">Learn at your own space with our flexible course schedules.</p>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card p-3 h-100 border-0 shadow-sm">
+                        <span class="bi bi-clock card-img-top fs-2"></span>
+                        <div class="card-body p-3">
+                            <h5 class="fw-bold">Flexible Learning</h5>
+                            <p class="mb-0">Learn at your own space with our flexible course schedules.</p>
+                        </div>
                     </div>
-                </div>
-
+                </div> 
             </div>
         </div>
-
+    </div>
     
-       
-
+    <!-- Experiences Your Learning Journy -->
+    <div class="container text-center py-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-10 col-lg-10">
+                <h3 class="fw-bold mb-3">
+                    Experience Your Learning Journey at  <br> NEXTiN Technology
+                </h3>
+                <p class="fs-6 text-muted mb-4">
+                    Embark on your learning journey with Mindenious Edtech, where innovative courses and expert guidance empower you to achieve your professional goals.
+                </p>
+                <img class="img-fluid" src="src/steps.jpg" alt="">
+            </div>
+            
+        </div>
     </div>
 
-    <!-- Experiences Your Learning Journy -->
-     <div class="container d-flex align-items-center text-center justify-content-center py-5 flex-column">
-        <h2 class="fs-3 fw-bold w-50">Experience Your Learning Journey at NEXTiN Technology</h2>
-        <p class="fs-6 w-50">Embark on your learning journey with Mindenious Edtech, where innovative courses and expert guidance empower you to achieve your professional goals.</p>
-        <img class="img-fluid" src="src/steps.jpg" alt="" width="1024">
-     </div>
-
     <!-- All Courses Section-->
-     <div class="courses-section py-5">
+    <div class="courses-section py-5">
         <div class="course-section-head text-center">
             <h2 class="fs-2 fw-bold bi bi-book-half"> Our Trending Courses</h2>
             <p class="text-light-emphasis fs-6 container fw-semibold">Explore our comprehensive range of courses to kickstart you career in tech.</p>
@@ -274,21 +282,24 @@
             </div>
         </div>
 
-     </div>
+    </div>
 
     <!-- Discover what makes our Pogram Better -->
-     
-    
-    <div class="container pb-5 d-flex align-items-center">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6 px-2 text-center">
-                <p class="fs-4 fw-semibold" style="color: gray;">Online learning done better</p>
-                <h2 class="fs-1 fw-bolder">Discover what makes our programs unique</h2>
-                <p style="font-size: 13px;">NEXTiN Technology Learning programs are crafted for busy professionals, featuring top university professors, industry mentors, and real hands-on projects. Our approach ensures you gain practical skills from the best in the field, making our programs the ideal choice for those looking to advance their careers and master new skills effectively.</p>
-                <button class="btn btn-danger">Explore More</button>
-            </div>
-            <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="src/discover.jpg" alt="" height="400">
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="row align-items-center justify-content-around text-center text-md-start">
+                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
+                    <p class="fs-5 fw-semibold text-secondary">Online learning done better</p>
+                    <h2 class="fw-bolder mb-3">Discover what makes our programs unique</h2>
+                    <p style="font-size: 13px;">
+                        NEXTiN Technology Learning programs are crafted for busy professionals, featuring top university professors, industry mentors, and real hands-on projects. Our approach ensures you gain practical skills from the best in the field, making our programs the ideal choice for those looking to advance their careers and master new skills effectively.
+                    </p>
+                    <button class="btn btn-danger mt-3">Explore More</button>
+                </div>
+                <div class="col-10 col-md-6 col-lg-5">
+                    <img class="img-fluid shadow-sm rounded-circle" src="src/discover.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -317,15 +328,33 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <p style="font-size: 14px;">This course was amazing, I learned so much and was able to build a portfolio of project that helped me got a job as a web developer.</p>
+                    <p style="font-size: 14px;">This course was amazing, I learned so much and was able project that helped me got a job as a web developer.</p>
                 </div>
 
                 <div class="card border-danger p-3 d-flex flex-column gap-3" role="button" style="width: 250px;">
                     <div class="d-flex gap-2 align-items-center">
-                        <img class="rounded-circle" src="src/sunil.jpg" alt="" height="50">
+                        <img class="rounded-circle" src="src/binod.jpg" alt="" height="50">
                         <div>
-                            <span class="fw-bold" style="font-size: 14px;">Sunil Kumar</span>
-                            <p style="font-size: 12px;">Full Stack Web Development</p>
+                            <span class="fw-bold" style="font-size: 14px;">Binod Kurmi</span>
+                            <p style="font-size: 12px;">Back End Master</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p style="font-size: 14px;">"NEXTiN Technology is a great Edutech to enhance your career. The  mentors they teach in very deeply and nicely.”</p>
+                </div>
+
+                <div class="card border-danger p-3 d-flex flex-column gap-3" role="button" style="width: 250px;">
+                    <div class="d-flex gap-2 align-items-center">
+                        <img class="rounded-circle" src="src/swapnil.jpg" alt="" height="50">
+                        <div>
+                            <span class="fw-bold" style="font-size: 14px;">Swap Nil</span>
+                            <p style="font-size: 12px;">Data Engineer</p>
                         </div>
                     </div>
                     <div>
@@ -333,43 +362,25 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p style="font-size: 14px;">"NEXTiN Technology is a great Edutech to enhance your career. The mentors are really good and they teach in very deeply and nicely.”</p>
-                </div>
-
-                <div class="card border-danger p-3 d-flex flex-column gap-3" role="button" style="width: 250px;">
-                    <div class="d-flex gap-2 align-items-center">
-                        <img class="rounded-circle" src="src/sunil.jpg" alt="" height="50">
-                        <div>
-                            <span class="fw-bold" style="font-size: 14px;">Sunil Kumar</span>
-                            <p style="font-size: 12px;">Full Stack Web Development</p>
-                        </div>
-                    </div>
-                    <div>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
                     </div>
                     <p style="font-size: 14px;">“Great experience. Mentors are excellent and they taught in deep level. Highly recommend. highly recomended for real developer.”</p>
                 </div>
 
                 <div class="card border-danger p-3 d-flex flex-column gap-3" role="button" style="width: 250px;">
                     <div class="d-flex gap-2 align-items-center">
-                        <img class="rounded-circle" src="src/sunil.jpg" alt="" height="50">
+                        <img class="rounded-circle" src="src/om.jpg" alt="" height="50">
                         <div>
-                            <span class="fw-bold" style="font-size: 14px;">Sunil Kumar</span>
-                            <p style="font-size: 12px;">Full Stack Web Development</p>
+                            <span class="fw-bold" style="font-size: 14px;">Om Bhai</span>
+                            <p style="font-size: 12px;">Front End Development</p>
                         </div>
                     </div>
                     <div>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star-half"></i>
                     </div>
                     <p style="font-size: 14px;">“It's an amazing experience. I am learning something new other than my subjects. Classes are also conducted in a very efficient way.”</p>
                 </div>
@@ -378,9 +389,6 @@
         </div>
     </div>
     
-
-     
-
     <!-- Footer Section -->
      <footer class="bg-dark ">
 
