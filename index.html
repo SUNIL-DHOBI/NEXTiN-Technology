@@ -36,8 +36,77 @@
                         </ul>
                     </div>
                     <div class="align-items-center header-nav-buttons d-flex gap-3">
-                        <button class="btn-enrool-now fw-bold rounded-3">Enroll Now</button>
-                        <button class="btn-login border-0 text-light fw-bold rounded-3"><span class="bi bi-person"></span>  Login</button>
+                        <button class="btn-enrool-now fw-bold rounded-3" data-bs-target="#enroll" data-bs-toggle="modal">Enroll Now</button>
+                        <!-- Enroll button modal -->
+                        <div class="modal fade" id="enroll">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="text-center fw-bold">To Enroll Now, Login First</h5>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body d-flex flex-column gap-4">
+                                        <div>
+                                            <label for="" class="form-label fw-bold">Email</label>
+                                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                                        </div>
+                                        <div>
+                                            <label for="" class="form-label fw-bold">Password</label>
+                                            <input type="password" class="form-control" placeholder="Enter Your Password">
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label for="" class="form-label">Remember me</label>
+                                            </div>
+                                            <a href="">Forget Password?</a>
+                                        </div>
+                                        <button class="btn btn-danger">Log In</button>
+                                        <div>
+                                            <h6 class="text-center">Don't have an account? <a href="">Sign Up</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="courses.html" class="btn btn-success">Seel All Courses</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-login border-0 text-light fw-bold rounded-3" data-bs-target="#login" data-bs-toggle="modal"><span class="bi bi-person"></span>  Login</button>                     
+                        <!-- Login button modal -->
+                        <div class="modal fade" id="login">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="text-center fw-bold">Login</h2>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body d-flex flex-column gap-4">
+                                        <div>
+                                            <label for="" class="form-label fw-bold">Email</label>
+                                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                                        </div>
+                                        <div>
+                                            <label for="" class="form-label fw-bold">Password</label>
+                                            <input type="password" class="form-control" placeholder="Enter Your Password">
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label for="" class="form-label">Remember me</label>
+                                            </div>
+                                            <a href="">Forget Password?</a>
+                                        </div>
+                                        <button class="btn btn-danger">Log In</button>
+                                        <div>
+                                            <h6 class="text-center">Don't have an account? <a href="">Sign Up</a></h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -51,12 +120,12 @@
                             <div class="d-flex flex-column gap-2 py-2">
                                 <span class="fs-5 fw-semibold" style="color: #e3234f;">Hi, there</span>
                                 <h3 class="m-0 fw-bold">
-                                    <span role="button" style="color: #e3234f;" >NEXTiN</span> is here to be your new Learning Partner</h3>
+                                    <span role="button" style="color: #e3234f;" >NEXTiN Technology</span> is here to be your new Learning Partner</h3>
                                 <span class="fs-6 fw-bold" style="color: rgba(0, 0, 0, 0.699);">
                                     Elevate your intellecent with NEXTiN
                                 </span>
                                 <p class="m-0 small" style="font-size: 14px;">
-                                    " NEXTiN is an innovative educational technology platform which isn't just another ed-tech platform.
+                                    " NEXTiN Technology is an innovative educational technology platform which isn't just another ed-tech platform.
                                     we're the bridge that spans the gap between classroom theory and real-world industry needs. From internships 
                                     to personalized career guidance and mentorship, we're here to help students navigate the ever-shifting terrain 
                                     of professional development. With us, education isn't just about learning more, it's about thriving."
